@@ -6,6 +6,10 @@ import Header from './Header';
 
 class App extends React.Component {
 
+  componentDidMount() {
+    document.title = "Harrison Wong";
+  }
+
   render() {
     return (
       <div>
