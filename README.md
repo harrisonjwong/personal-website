@@ -8,20 +8,20 @@ TODO:
 - [ ] Create new homepage
 - [ ] Sidebar
 - [ ] Skills page
- - [ ] Languages
- - [ ] Frameworks
+  - [ ] Languages
+  - [ ] Frameworks
 - [ ] Projects page
- - [ ] Greenline
- - [ ] animator
- - [ ] maze game
- - [ ] tictactoe
- - [ ] this website
- - [ ]
+  - [ ] Greenline
+  - [ ] animator
+  - [ ] maze game
+  - [ ] tictactoe
+  - [ ] this website
+  - [ ]
 - [ ] Experience page
- - [ ] PA
- - [ ] TAing
- - [ ] Other?
+  - [ ] PA
+  - [ ] TAing
+  - [ ] Other?
 - [ ] Interests page
- - [ ] lol
+  - [ ] lol
 - [ ] Contact/links
- - [ ] Linkedin
+  - [ ] Linkedin
