@@ -7,6 +7,8 @@ TODO:
 - [X] Setup github page
 - [ ] Create new homepage
 - [ ] Sidebar
+- [ ] Education page
+  - [ ] courses
 - [ ] Skills page
   - [ ] Languages
   - [ ] Frameworks
