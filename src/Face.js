@@ -7,7 +7,7 @@ export default class Face extends React.Component {
   render() {
     return (
       <div className="face">
-        <header className="App-header">
+        <header className="faceHeader">
           <img src={face} className="facePic" alt="my face"/>
           <p>
             Harrison Wong
