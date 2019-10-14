@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Face from './Face';
 import Main from './Main';
 import Header from './Header';
 
