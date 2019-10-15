@@ -1,0 +1,43 @@
+.wholeGrid {
+  margin: 10px 10px 10px 10px;
+}
+
+.wholeGrid .commonSquare {
+  box-shadow: 2px 2px 1px black;
+  text-align: center;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+.wholeGrid .animatorSquare {
+  opacity: 0.8;
+  background-color: #215ef8;
+}
+
+.wholeGrid .animatorSquare .animatorPic {
+  padding: 2px 2px 2px 2px;
+  width: 400px;
+}
+
+.wholeGrid .greenLineSquare {
+  background-color: #108340;
+}
+
+.wholeGrid .greenLineSquare .greenLinePic {
+  width: 150px;
+  padding: 2px 2px 2px 2px;
+}
+
+.wholeGrid .mazeGameSquare {
+  background-color: #ff9900;
+}
+
+.wholeGrid .mazeGameSquare .mazeGamePic {
+  width: 350px;
+  padding: 2px 2px 2px 2px;
+}
+
+.projectsBackground {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+}
