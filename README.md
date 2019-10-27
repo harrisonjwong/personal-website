@@ -30,3 +30,7 @@ TODO:
   - [ ] tv
   - [ ] cooking (lol)
   - [ ] technology (apple)
+  
+Bugs:
+- [ ] Get the app bar to display the correct page name upon loading
+- [ ] (maybe) make the projects page look slightly better
