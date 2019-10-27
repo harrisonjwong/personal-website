@@ -7,25 +7,26 @@ I also used this [tutorial](https://blog.pshrmn.com/simple-react-router-v4-tutor
 TODO:
 
 - [X] Setup github page
-- [ ] Create new homepage
-- [ ] Sidebar
-- [ ] Education page
-  - [ ] courses
-- [ ] Skills page
+- [X] Create new homepage
+- [X] Sidebar
+- [X] About page
+  - [ ] Education (Northeastern, NSHS)
+  - [ ] Experience (PA, TAing)
+  - [ ] Links (email, linkedin, github, resume.pdf)
+- [X] Skills page
   - [ ] Languages
   - [ ] Frameworks
-- [ ] Projects page
+  - [ ] Software
+- [X] Projects page
   - [ ] Greenline
   - [ ] animator
   - [ ] maze game
   - [ ] tictactoe
   - [ ] this website
-  - [ ]
-- [ ] Experience page
-  - [ ] PA
-  - [ ] TAing
-  - [ ] Other?
-- [ ] Interests page
-  - [ ] lol
-- [ ] Contact/links
-  - [ ] Linkedin
+  - [ ] more...
+- [X] Interests page
+  - [ ] podcasts
+  - [ ] youtubers (hmm)
+  - [ ] tv
+  - [ ] cooking (lol)
+  - [ ] technology (apple)
