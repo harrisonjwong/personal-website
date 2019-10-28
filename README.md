@@ -1,8 +1,6 @@
-This is my new personal website built in [React](https://reactjs.org).
+This is my personal portfolio website built in [React](https://reactjs.org) and hosted by GitHub Pages.
 
-I used this [tutorial](https://github.com/gitname/react-gh-pages) to set up hosting on Github Pages.
-
-I also used this [tutorial](https://blog.pshrmn.com/simple-react-router-v4-tutorial/) to setup multipage.
+It supports multiple pages with ReactRouter's HashRouter (which allows for links to use a # so it can still be contained on a single page, a requirement for github pages).
 
 TODO:
 
@@ -38,3 +36,8 @@ Incomplete:
 - [ ] (maybe) make the projects page look slightly better
 - [ ] Use images instead of text on skills page
 - [ ] Write blurbs for about page (copy from resume); figure out how to do multiline secondary
+
+Credits:
+
+I used this [tutorial](https://github.com/gitname/react-gh-pages) to set up hosting on GitHub Pages.
+I also used this [tutorial](https://blog.pshrmn.com/simple-react-router-v4-tutorial/) to setup multipage.
