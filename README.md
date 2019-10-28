@@ -6,31 +6,33 @@ I also used this [tutorial](https://blog.pshrmn.com/simple-react-router-v4-tutor
 
 TODO:
 
-- [X] Setup github page
-- [X] Create new homepage
-- [X] Sidebar
-- [X] About page
-  - [ ] Education (Northeastern, NSHS)
-  - [ ] Experience (PA, TAing)
-  - [ ] Links (email, linkedin, github, resume.pdf)
-- [X] Skills page
-  - [ ] Languages
-  - [ ] Frameworks
-  - [ ] Software
-- [X] Projects page
+- [x] Setup github page
+- [x] Create new homepage
+- [x] Sidebar
+- [x] About page
+  - [x] Links (email, linkedin, github, resume.pdf)
+  - [x] Education (Northeastern, NSHS)
+  - [x] Experience (PA, TAing)
+- [x] Skills page
+  - [x] Languages
+  - [x] Frameworks
+  - [x] Software
+- [x] Projects page (new page for each)
   - [ ] Greenline
   - [ ] animator
   - [ ] maze game
   - [ ] tictactoe
   - [ ] this website
   - [ ] more...
-- [X] Interests page
+- [x] Interests page
   - [ ] podcasts
   - [ ] youtubers (hmm)
   - [ ] tv
   - [ ] cooking (lol)
   - [ ] technology (apple)
-  
+
 Bugs:
+
 - [ ] Get the app bar to display the correct page name upon loading
 - [ ] (maybe) make the projects page look slightly better
+- [ ] Use images instead of text on skills page
