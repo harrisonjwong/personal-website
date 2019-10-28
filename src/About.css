@@ -1,0 +1,39 @@
+.aboutPage {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.aboutPage h1 {
+  text-align: center;
+}
+
+.aboutPage .blurb {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.aboutPage .list {
+  background-color: #cfccc6;
+}
+
+.aboutPage .list .cellText {
+  color: white;
+}
+
+.aboutPage .header .socials {
+  background-color: #cfccc6;
+  text-align: center;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.aboutPage .header .socials .socialImage {
+  padding-right: 20px;
+  padding-left: 20px;
+  vertical-align: middle;
+}

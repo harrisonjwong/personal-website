@@ -4,22 +4,28 @@ import {
   AppBar,
   Toolbar,
   Typography,
-  Button,
   IconButton,
   Drawer,
   List,
-  Divider,
   ListItem,
   ListItemIcon,
   ListItemText
 } from "@material-ui/core";
-import { Menu, Home, Description, Stars } from "@material-ui/icons";
+import {
+  Menu,
+  Home,
+  Description,
+  Stars,
+  PermIdentity,
+  Dashboard
+} from "@material-ui/icons";
 
 export default class Header extends React.Component {
   constructor(props) {
     super(props);
+    console.log(this.props);
     this.state = {
-      headerTitle: "Home",
+      headerTitle: "Harrison Wong",
       isDrawerOpen: false
     };
   }
@@ -43,6 +49,18 @@ export default class Header extends React.Component {
         icon: <Stars />,
         onClick: () => this.setState({ headerTitle: "Skills" }),
         text: "Skills"
+      },
+      {
+        location: "/interests",
+        icon: <Dashboard />,
+        onClick: () => this.setState({ headerTitle: "Interests" }),
+        text: "Interests"
+      },
+      {
+        location: "/about",
+        icon: <PermIdentity />,
+        onClick: () => this.setState({ headerTitle: "About" }),
+        text: "About"
       }
     ];
 

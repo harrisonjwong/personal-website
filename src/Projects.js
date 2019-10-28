@@ -2,15 +2,12 @@ import React from "react";
 import GridList from "@material-ui/core/GridList";
 import GridListTile from "@material-ui/core/GridListTile";
 import GridListTileBar from "@material-ui/core/GridListTileBar";
-import ListSubheader from "@material-ui/core/ListSubheader";
 import IconButton from "@material-ui/core/IconButton";
 import InfoIcon from "@material-ui/icons/Info";
 
 import AnimatorPic from "./pictures/Animator2.png";
 import MazeGamePic from "./pictures/MazeGame.png";
 import GreenLinePic from "./pictures/GreenLine.png";
-import GreenLinePic1 from "./pictures/GreenLine1.png";
-import GreenLinePic2 from "./pictures/GreenLine2.png";
 import WebsitePic from "./pictures/Website.png";
 import TicTacToePic from "./pictures/TicTacToe.png";
 import "./Projects.css";
