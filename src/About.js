@@ -120,7 +120,7 @@ export default class About extends React.Component {
             <ListItemText
               className="cellText"
               primary="Northeastern University, Boston, MA Sep 2017 – May 2021"
-              secondary="Bachelor of Science; Major: Computer Engineering and Computer Science"
+              secondary="Bachelor of Science; Major: Computer Engineering and Computer Science GPA: 3.93"
             />
           </ListItem>
           <Divider />

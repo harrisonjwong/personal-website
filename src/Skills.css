@@ -1,0 +1,17 @@
+.skillsPage {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.skillsPage h1 {
+  text-align: center;
+}
+
+.skillsPage .list {
+  background-color: #cfccc6;
+  margin-bottom: 10px;
+}
