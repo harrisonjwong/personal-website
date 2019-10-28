@@ -30,9 +30,11 @@ TODO:
   - [ ] tv
   - [ ] cooking (lol)
   - [ ] technology (apple)
+  - [ ] exercise LOL
 
-Bugs:
+Incomplete:
 
 - [ ] Get the app bar to display the correct page name upon loading
 - [ ] (maybe) make the projects page look slightly better
 - [ ] Use images instead of text on skills page
+- [ ] Write blurbs for about page (copy from resume); figure out how to do multiline secondary
