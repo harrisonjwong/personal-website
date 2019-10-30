@@ -1,3 +1,5 @@
+**You can visit my website at https://harrisonjwong.com.**
+
 This is my personal portfolio website built in [React](https://reactjs.org) and hosted by GitHub Pages.
 
 It supports multiple pages with ReactRouter's HashRouter (which allows for links to use a # so it can still be contained on a single page, a requirement for github pages).
