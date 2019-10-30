@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.e4c0c008.chunk.css",
-    "main.js": "/static/js/main.2d642760.chunk.js",
-    "main.js.map": "/static/js/main.2d642760.chunk.js.map",
+    "main.js": "/static/js/main.ebefab43.chunk.js",
+    "main.js.map": "/static/js/main.ebefab43.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2d8e7ae3.js",
     "runtime-main.js.map": "/static/js/runtime-main.2d8e7ae3.js.map",
     "static/js/2.9db84b74.chunk.js": "/static/js/2.9db84b74.chunk.js",
     "static/js/2.9db84b74.chunk.js.map": "/static/js/2.9db84b74.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b3a6f03bbbb308ace10267c162cd3bed.js": "/precache-manifest.b3a6f03bbbb308ace10267c162cd3bed.js",
+    "precache-manifest.4254af724110eda0639e56db2b4a2b55.js": "/precache-manifest.4254af724110eda0639e56db2b4a2b55.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e4c0c008.chunk.css.map": "/static/css/main.e4c0c008.chunk.css.map",
     "static/media/Animator2.png": "/static/media/Animator2.9ee599aa.png",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.2d8e7ae3.js",
     "static/js/2.9db84b74.chunk.js",
     "static/css/main.e4c0c008.chunk.css",
-    "static/js/main.2d642760.chunk.js"
+    "static/js/main.ebefab43.chunk.js"
   ]
 }
