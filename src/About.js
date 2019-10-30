@@ -7,7 +7,8 @@ import {
   ListItemAvatar,
   ListSubheader,
   Avatar,
-  Button
+  Button,
+  Typography
 } from "@material-ui/core";
 
 import "./About.css";
@@ -89,8 +90,40 @@ export default class About extends React.Component {
             </ListItemAvatar>
             <ListItemText
               className="cellText"
-              primary="Software Developer Co-op PowerAdvocate Boston, MA Jul – Dec 2019"
-              secondary="In this job I developed software In this job I developed software In this job I developed software In this job I developed software In this job I developed software In this job I developed software In this job I developed software In this job I developed software In this job I developed software In this job I developed software"
+              primary={
+                <React.Fragment>
+                  <Typography variant="subtitle1" color="textPrimary">
+                    Software Developer Co-op
+                  </Typography>
+                  <Typography variant="body2" color="textPrimary">
+                    PowerAdvocate, Boston, MA
+                  </Typography>
+                  <Typography variant="body2" color="textPrimary">
+                    July 2019 – December 2019
+                  </Typography>
+                </React.Fragment>
+              }
+              secondary={
+                <React.Fragment>
+                  <Typography variant="body2" color="inherit">
+                    • Develop a full stack SaaS web application with React,
+                    Node.js, and Java Spring
+                  </Typography>
+                  <Typography variant="body2" color="inherit">
+                    • Use Jenkins to practice continuous integration and
+                    preemptively solve issues while developing new features
+                  </Typography>
+                  <Typography variant="body2" color="inherit">
+                    • Practice Agile development and working collaboratively
+                    with pair programming
+                  </Typography>
+                  <Typography variant="body2" color="inherit">
+                    • Participate in entire software development process
+                    including planning, development, iteration, testing, code
+                    review, and release
+                  </Typography>
+                </React.Fragment>
+              }
             />
           </ListItem>
           <Divider />
@@ -100,8 +133,35 @@ export default class About extends React.Component {
             </ListItemAvatar>
             <ListItemText
               className="cellText"
-              primary="Teaching Assistant Northeastern University Boston, MA Jan – Apr 2019"
-              secondary="In this job I helped students In this job I helped students In this job I helped students In this job I helped students In this job I helped students"
+              primary={
+                <React.Fragment>
+                  <Typography variant="subtitle1" color="textPrimary">
+                    Teaching Assistant
+                  </Typography>
+                  <Typography variant="body2" color="textPrimary">
+                    Northeastern University Khoury College of Computer Sciences,
+                    Boston, MA
+                  </Typography>
+                  <Typography variant="body2" color="textPrimary">
+                    January 2019 – April 2019
+                  </Typography>
+                </React.Fragment>
+              }
+              secondary={
+                <React.Fragment>
+                  <Typography variant="body2" color="inherit">
+                    • Hold office hours to help students with coding assignments
+                  </Typography>
+                  <Typography variant="body2" color="inherit">
+                    • Assist professors with grading coding assignments and
+                    exams
+                  </Typography>
+                  <Typography variant="body2" color="inherit">
+                    • Help run labs to give students hands on experience with
+                    programming concepts
+                  </Typography>
+                </React.Fragment>
+              }
             />
           </ListItem>
         </List>
@@ -119,8 +179,23 @@ export default class About extends React.Component {
             </ListItemAvatar>
             <ListItemText
               className="cellText"
-              primary="Northeastern University, Boston, MA Sep 2017 – May 2021"
-              secondary="Bachelor of Science; Major: Computer Engineering and Computer Science GPA: 3.93"
+              primary={
+                <React.Fragment>
+                  <Typography variant="subtitle1" color="textPrimary">
+                    Northeastern University, Boston, MA
+                  </Typography>
+                  <Typography variant="body2" color="textPrimary">
+                    BS in Computer Engineering and Computer Science
+                  </Typography>
+                  <Typography variant="body2" color="textPrimary">
+                    GPA: 3.93
+                  </Typography>
+                  <Typography variant="body2" color="textPrimary">
+                    September 2017 – May 2021
+                  </Typography>
+                </React.Fragment>
+              }
+              secondary="Relevant Coursework: Object-Oriented Design, Algorithms and Data, Embedded Design"
             />
           </ListItem>
           <Divider />
@@ -130,8 +205,16 @@ export default class About extends React.Component {
             </ListItemAvatar>
             <ListItemText
               className="cellText"
-              primary="Newton South High School, Newton, MA Sep 2014 – May 2017"
-              secondary="lol"
+              primary={
+                <React.Fragment>
+                  <Typography variant="subtitle1" color="textPrimary">
+                    Newton South High School, Newton, MA
+                  </Typography>
+                  <Typography variant="body2" color="textPrimary">
+                    September 2013 – May 2017
+                  </Typography>
+                </React.Fragment>
+              }
             />
           </ListItem>
         </List>
