@@ -10,9 +10,6 @@ import {
   Button
 } from "@material-ui/core";
 
-import IconJava from "react-devicon/java/original";
-import IconJavascript from "react-devicon/javascript/original";
-
 import "./Skills.css";
 
 export default class Skills extends React.Component {
@@ -26,11 +23,12 @@ export default class Skills extends React.Component {
         >
           <Divider />
           <ListItem alignItems="flex-start">
-            <ListItemText className="cellText" primary="Best At" />
-            <IconJava width={50} height={50} />
-            <IconJavascript width={50} height={50} />
+            <ListItemText
+              className="cellText"
+              primary="Best At"
+              secondary="Java, JavaScript, Swift, HTML/CSS"
+            />
           </ListItem>
-
           <Divider />
           <ListItem alignItems="flex-start">
             <ListItemText
