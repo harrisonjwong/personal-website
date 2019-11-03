@@ -3,7 +3,7 @@ import GridList from "@material-ui/core/GridList";
 import GridListTile from "@material-ui/core/GridListTile";
 import GridListTileBar from "@material-ui/core/GridListTileBar";
 import IconButton from "@material-ui/core/IconButton";
-import InfoIcon from "@material-ui/icons/Info";
+import LaunchIcon from "@material-ui/icons/Launch";
 
 import AnimatorPic from "./pictures/Animator2.png";
 import MazeGamePic from "./pictures/MazeGame.png";
@@ -18,27 +18,32 @@ export default class Projects extends React.Component {
       {
         img: AnimatorPic,
         title: "Easy Animator",
-        language: "Java (Java Swing)"
+        language: "Java (Java Swing)",
+        github: "https://github.com/harrisonjwong/animator"
       },
       {
         img: GreenLinePic,
         title: "Green Line Predictions iOS App",
-        language: "Swift"
+        language: "Swift",
+        github: "https://github.com/harrisonjwong/greenline"
       },
       {
         img: WebsitePic,
         title: "Personal Website",
-        language: "JavaScript (React)"
+        language: "JavaScript (React)",
+        github: "https://github.com/harrisonjwong/personal-website"
       },
       {
         img: TicTacToePic,
         title: "Tic-Tac-Toe",
-        language: "Swift"
+        language: "Swift",
+        github: "https://github.com/harrisonjwong/tictactoe"
       },
       {
         img: MazeGamePic,
         title: "Maze Generator and Solver",
-        language: "Java"
+        language: "Java",
+        github: "https://github.com/harrisonjwong/mazes"
       }
     ];
     return (
@@ -54,8 +59,13 @@ export default class Projects extends React.Component {
                   <IconButton
                     aria-label={`info about ${tile.title}`}
                     className="button"
+                    title="GitHub"
                   >
-                    <InfoIcon />
+                    <LaunchIcon
+                      onClick={() => {
+                        window.location.href = tile.github;
+                      }}
+                    />
                   </IconButton>
                 }
               />
