@@ -7,7 +7,6 @@ import {
   ListItemAvatar,
   ListSubheader,
   Avatar,
-  Button,
   Typography
 } from "@material-ui/core";
 
@@ -35,6 +34,7 @@ export default class About extends React.Component {
               className="socialImage"
               href="https://github.com/harrisonjwong"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 src={Github}
@@ -47,6 +47,7 @@ export default class About extends React.Component {
               className="socialImage"
               href="https://linkedin.com/in/harrisonjwong"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 src={Linkedin}
@@ -67,6 +68,7 @@ export default class About extends React.Component {
               className="socialImage"
               href="https://drive.google.com/file/d/1C06BjKmQ80VJdZ8SROlwKT5N441TksOc/view?usp=sharing"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 src={Resume}

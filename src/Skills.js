@@ -4,10 +4,7 @@ import {
   ListItem,
   Divider,
   ListItemText,
-  ListItemAvatar,
-  ListSubheader,
-  Avatar,
-  Button
+  ListSubheader
 } from "@material-ui/core";
 
 import "./Skills.css";

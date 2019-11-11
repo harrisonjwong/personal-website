@@ -28,50 +28,75 @@ export default class Interests extends React.Component {
         <h3> Podcasts </h3>
         <div className="podcasts">
           <a href="https://gimletmedia.com/shows/reply-all">
-            <img className="interestsPicture" src={Replyall} />
+            <img
+              className="interestsPicture"
+              src={Replyall}
+              alt="Reply All Podcast"
+            />
           </a>
           <a href="https://gimletmedia.com/shows/heavyweight">
-            <img className="interestsPicture" src={Heavyweight} />
+            <img
+              className="interestsPicture"
+              src={Heavyweight}
+              alt="Heavyweight Podcast"
+            />
           </a>
           <a href="https://nytimes.com/thedaily">
-            <img className="interestsPicture" src={Thedaily} />
+            <img
+              className="interestsPicture"
+              src={Thedaily}
+              alt="The Daily Podcast"
+            />
           </a>
           <a href="https://crooked.com/podcast-series/pod-save-america/">
-            <img className="interestsPicture" src={Podsaveamerica} />
-          </a>
-
-          <h3> Internet/Technology </h3>
-
-          <a href="https://reddit.com">
-            <img className="interestsPicture" src={Reddit} />
-          </a>
-          <a href="https://twitter.com">
-            <img className="interestsPicture" src={Twitter} />
-          </a>
-          <a href="https://apple.com">
-            <img className="interestsPicture" src={Apple} />
+            <img
+              className="interestsPicture"
+              src={Podsaveamerica}
+              alt="Pod Save America Podcast"
+            />
           </a>
 
           <h3> Video Games </h3>
           <a href="https://leagueoflegends.com">
-            <img className="interestsPicture" src={League} />
+            <img
+              className="interestsPicture"
+              src={League}
+              alt="League of Legends"
+            />
           </a>
           <a href="https://lol.gamepedia.com">
-            <img className="interestsPicture" src={Lolesports} />
+            <img
+              className="interestsPicture"
+              src={Lolesports}
+              alt="League of Legends Esports"
+            />
           </a>
           <a href="https://minecraft.net">
-            <img className="interestsPicture" src={Minecraft} />
+            <img className="interestsPicture" src={Minecraft} alt="Minecraft" />
           </a>
           <a href="https://youtube.com/ethoslab">
-            <img className="interestsPicture" src={Etho} />
+            <img
+              className="interestsPicture"
+              src={Etho}
+              alt="EthosLab (Minecraft YouTuber)"
+            />
           </a>
 
-          <h3> Other </h3>
+          <h3> Miscellaneous </h3>
+          <a href="https://reddit.com/r/all">
+            <img className="interestsPicture" src={Reddit} alt="Reddit" />
+          </a>
+          <a href="https://twitter.com">
+            <img className="interestsPicture" src={Twitter} alt="Twitter" />
+          </a>
+          <a href="https://reddit.com/r/apple">
+            <img className="interestsPicture" src={Apple} alt="Apple" />
+          </a>
           <a href="https://reddit.com/r/food">
-            <img className="interestsPicture" src={Cooking} />
+            <img className="interestsPicture" src={Cooking} alt="Cooking" />
           </a>
           <a href="https://reddit.com/r/fitness">
-            <img className="interestsPicture" src={Fitness} />
+            <img className="interestsPicture" src={Fitness} alt="Fitness" />
           </a>
         </div>
       </div>
