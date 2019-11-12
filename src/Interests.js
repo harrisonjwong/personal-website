@@ -58,11 +58,6 @@ export default class Interests extends React.Component {
         title: "Minecraft",
         source: Minecraft,
         link: "https://minecraft.net"
-      },
-      {
-        title: "EthosLab - Minecraft Youtuber",
-        source: Etho,
-        link: "https://youtube.com/ethoslab"
       }
     ];
     const miscellaneous = [
