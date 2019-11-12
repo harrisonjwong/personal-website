@@ -25,19 +25,19 @@ TODO:
   - [ ] this website
   - [ ] more...
 - [x] Interests page
-  - [ ] podcasts
+  - [x] podcasts
   - [ ] youtubers (hmm)
   - [ ] tv
-  - [ ] cooking (lol)
-  - [ ] technology (apple)
-  - [ ] exercise LOL
+  - [x] cooking (lol)
+  - [x] technology (apple)
+  - [x] exercise LOL
 
-Incomplete:
+Other tasks:
 
 - [ ] Get the app bar to display the correct page name upon loading
-- [ ] (maybe) make the projects page look slightly better
+- [ ] make the projects page look slightly better (the pictures make the overlays hard to read)
 - [ ] Use images instead of text on skills page
-- [ ] Write blurbs for about page (copy from resume); figure out how to do multiline secondary
+- [x] Write blurbs for about page (copy from resume); figure out how to do multiline secondary
 
 Credits:
 
