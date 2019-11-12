@@ -35,31 +35,36 @@ export default class Header extends React.Component {
       {
         location: "/",
         icon: <Home />,
-        onClick: () => this.setState({ headerTitle: "Home" }),
+        onClick: () =>
+          this.setState({ headerTitle: "Home", isDrawerOpen: false }),
         text: "Home"
       },
       {
         location: "/projects",
         icon: <Description />,
-        onClick: () => this.setState({ headerTitle: "Projects" }),
+        onClick: () =>
+          this.setState({ headerTitle: "Projects", isDrawerOpen: false }),
         text: "Projects"
       },
       {
         location: "/skills",
         icon: <Stars />,
-        onClick: () => this.setState({ headerTitle: "Skills" }),
+        onClick: () =>
+          this.setState({ headerTitle: "Skills", isDrawerOpen: false }),
         text: "Skills"
       },
       {
         location: "/interests",
         icon: <Dashboard />,
-        onClick: () => this.setState({ headerTitle: "Interests" }),
+        onClick: () =>
+          this.setState({ headerTitle: "Interests", isDrawerOpen: false }),
         text: "Interests"
       },
       {
         location: "/about",
         icon: <PermIdentity />,
-        onClick: () => this.setState({ headerTitle: "About" }),
+        onClick: () =>
+          this.setState({ headerTitle: "About", isDrawerOpen: false }),
         text: "About"
       }
     ];
