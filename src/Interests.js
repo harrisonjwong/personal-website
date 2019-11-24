@@ -14,8 +14,6 @@ import Apple from "./pictures/apple.png";
 import League from "./pictures/league.jpg";
 import Lolesports from "./pictures/lolesports.png";
 import Minecraft from "./pictures/minecraft.png";
-import Etho from "./pictures/etho.jpg";
-
 import Cooking from "./pictures/cooking.jpg";
 import Fitness from "./pictures/fitness.png";
 

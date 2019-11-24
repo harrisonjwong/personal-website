@@ -39,6 +39,8 @@ Other tasks:
 - [ ] Use images instead of text on skills page
 - [x] Write blurbs for about page (copy from resume); figure out how to do multiline secondary
 
+Icons from here: https://www.materialui.co/icons.
+
 Credits:
 
 I used this [tutorial](https://github.com/gitname/react-gh-pages) to set up hosting on GitHub Pages.
