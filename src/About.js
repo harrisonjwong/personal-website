@@ -210,7 +210,7 @@ export default class About extends React.Component {
                     BS in Computer Engineering and Computer Science
                   </Typography>
                   <Typography variant="body2" color="textPrimary">
-                    GPA: 3.93
+                    GPA: 3.93 / 4.00
                   </Typography>
                   <Typography variant="body2" color="textPrimary">
                     September 2017 – May 2021
