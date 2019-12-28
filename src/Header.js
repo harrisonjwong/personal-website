@@ -23,7 +23,6 @@ import {
 export default class Header extends React.Component {
   constructor(props) {
     super(props);
-    console.log(this.props);
     this.state = {
       headerTitle: "Harrison Wong",
       isDrawerOpen: false

@@ -66,7 +66,7 @@ export default class About extends React.Component {
             </a>
             <a
               className="socialImage"
-              href="https://drive.google.com/file/d/1C06BjKmQ80VJdZ8SROlwKT5N441TksOc/view?usp=sharing"
+              href="https://github.com/harrisonjwong/resume/blob/master/resume_dec2019.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -108,21 +108,41 @@ export default class About extends React.Component {
               secondary={
                 <React.Fragment>
                   <Typography variant="body2" color="inherit">
-                    • Develop a full stack SaaS web application with React,
-                    Node.js, and Java Spring
+                    • Rewrote a high-traffic page in a main company product to
+                    enhance usability and remove pain points; modernized
+                    decade-old code with a new front end in React and enhanced
+                    back end using Java Spring
                   </Typography>
                   <Typography variant="body2" color="inherit">
-                    • Use Jenkins to practice continuous integration and
-                    preemptively solve issues while developing new features
+                    • Worked in an existing microservice-based architecture
+                    hosted on AWS, including designing and developing a new Node
+                    microservice to parse and validate data from S3 and record
+                    results from sending it to a machine learning algorithm
                   </Typography>
                   <Typography variant="body2" color="inherit">
-                    • Practice Agile development and working collaboratively
-                    with pair programming
+                    • Developed on a full stack SaaS web application with React,
+                    Node.js, and Java Spring including creation of new features
+                    and bug fixes
                   </Typography>
                   <Typography variant="body2" color="inherit">
-                    • Participate in entire software development process
-                    including planning, development, iteration, testing, code
-                    review, and release
+                    • Demoed and explained new features to company leadership to
+                    show business value
+                  </Typography>
+                  <Typography variant="body2" color="inherit">
+                    • Worked with product owners to negotiate criteria for
+                    features to provide maximum value for time spent
+                  </Typography>
+                  <Typography variant="body2" color="inherit">
+                    • Participated in a continuous integration testing
+                    environment and practiced agile development
+                  </Typography>
+                  <Typography variant="body2" color="inherit">
+                    • Worked collaboratively using pair programming with all
+                    levels of developers
+                  </Typography>
+                  <Typography variant="body2" color="inherit">
+                    • Interviewed future co-op candidates to evaluate their
+                    skills, technical knowledge, and fit to the company
                   </Typography>
                 </React.Fragment>
               }
@@ -145,22 +165,22 @@ export default class About extends React.Component {
                     Boston, MA
                   </Typography>
                   <Typography variant="body2" color="textPrimary">
-                    January 2019 – April 2019
+                    January 2019 – April 2019, January 2020 - April 2020
                   </Typography>
                 </React.Fragment>
               }
               secondary={
                 <React.Fragment>
                   <Typography variant="body2" color="inherit">
-                    • Hold office hours to help students with coding assignments
+                    • Work with students in Fundamentals of Computer Science to
+                    teach concepts and answer questions
                   </Typography>
                   <Typography variant="body2" color="inherit">
-                    • Assist professors with grading coding assignments and
-                    exams
+                    • Hold office hours and run labs to help students with
+                    coding assignments
                   </Typography>
                   <Typography variant="body2" color="inherit">
-                    • Help run labs to give students hands on experience with
-                    programming concepts
+                    • Grade coding assignments and exams in a timely manner
                   </Typography>
                 </React.Fragment>
               }
@@ -197,7 +217,7 @@ export default class About extends React.Component {
                   </Typography>
                 </React.Fragment>
               }
-              secondary="Relevant Coursework: Object-Oriented Design, Algorithms and Data, Embedded Design"
+              secondary="Relevant Coursework: Object-Oriented Design, Algorithms and Data, Computer Systems, Embedded Design"
             />
           </ListItem>
           <Divider />
