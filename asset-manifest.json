@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.fab5340a.chunk.css",
-    "main.js": "/static/js/main.fd7f3eba.chunk.js",
-    "main.js.map": "/static/js/main.fd7f3eba.chunk.js.map",
+    "main.js": "/static/js/main.b6fb7bd6.chunk.js",
+    "main.js.map": "/static/js/main.b6fb7bd6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2d8e7ae3.js",
     "runtime-main.js.map": "/static/js/runtime-main.2d8e7ae3.js.map",
     "static/js/2.4020bfea.chunk.js": "/static/js/2.4020bfea.chunk.js",
     "static/js/2.4020bfea.chunk.js.map": "/static/js/2.4020bfea.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8a4288a1700102d63c9a6862018acdeb.js": "/precache-manifest.8a4288a1700102d63c9a6862018acdeb.js",
+    "precache-manifest.89d51b233cd01fb909bb875c8b22ce9e.js": "/precache-manifest.89d51b233cd01fb909bb875c8b22ce9e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.fab5340a.chunk.css.map": "/static/css/main.fab5340a.chunk.css.map",
     "static/media/Animator2.png": "/static/media/Animator2.9ee599aa.png",
@@ -23,7 +23,7 @@
     "static/media/heavyweight.png": "/static/media/heavyweight.6ba3b2ff.png",
     "static/media/league.jpg": "/static/media/league.868aabfa.jpg",
     "static/media/linkedin.png": "/static/media/linkedin.f08c524d.png",
-    "static/media/mail.png": "/static/media/mail.d0415be7.png",
+    "static/media/mail2.png": "/static/media/mail2.61b2ad5f.png",
     "static/media/minecraft.png": "/static/media/minecraft.e14c758d.png",
     "static/media/northeastern.png": "/static/media/northeastern.bf23289d.png",
     "static/media/podsaveamerica.jpg": "/static/media/podsaveamerica.6985d66b.jpg",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.2d8e7ae3.js",
     "static/js/2.4020bfea.chunk.js",
     "static/css/main.fab5340a.chunk.css",
-    "static/js/main.fd7f3eba.chunk.js"
+    "static/js/main.b6fb7bd6.chunk.js"
   ]
 }
