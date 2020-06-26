@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.fab5340a.chunk.css",
-    "main.js": "/static/js/main.b6fb7bd6.chunk.js",
-    "main.js.map": "/static/js/main.b6fb7bd6.chunk.js.map",
+    "main.js": "/static/js/main.7f082f34.chunk.js",
+    "main.js.map": "/static/js/main.7f082f34.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2d8e7ae3.js",
     "runtime-main.js.map": "/static/js/runtime-main.2d8e7ae3.js.map",
-    "static/js/2.4020bfea.chunk.js": "/static/js/2.4020bfea.chunk.js",
-    "static/js/2.4020bfea.chunk.js.map": "/static/js/2.4020bfea.chunk.js.map",
+    "static/js/2.87b8362f.chunk.js": "/static/js/2.87b8362f.chunk.js",
+    "static/js/2.87b8362f.chunk.js.map": "/static/js/2.87b8362f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.89d51b233cd01fb909bb875c8b22ce9e.js": "/precache-manifest.89d51b233cd01fb909bb875c8b22ce9e.js",
+    "precache-manifest.958e444d3634b225b51863ebd9848159.js": "/precache-manifest.958e444d3634b225b51863ebd9848159.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.fab5340a.chunk.css.map": "/static/css/main.fab5340a.chunk.css.map",
     "static/media/Animator2.png": "/static/media/Animator2.9ee599aa.png",
@@ -17,6 +17,7 @@
     "static/media/TicTacToe.png": "/static/media/TicTacToe.47ef9d49.png",
     "static/media/Website.png": "/static/media/Website.ea16104f.png",
     "static/media/apple.png": "/static/media/apple.4e6f9f28.png",
+    "static/media/cisco.jpg": "/static/media/cisco.894a0007.jpg",
     "static/media/cooking.jpg": "/static/media/cooking.0e7d5f86.jpg",
     "static/media/face.png": "/static/media/face.fcc5ef26.png",
     "static/media/github.png": "/static/media/github.808c86ae.png",
@@ -35,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2d8e7ae3.js",
-    "static/js/2.4020bfea.chunk.js",
+    "static/js/2.87b8362f.chunk.js",
     "static/css/main.fab5340a.chunk.css",
-    "static/js/main.b6fb7bd6.chunk.js"
+    "static/js/main.7f082f34.chunk.js"
   ]
 }
