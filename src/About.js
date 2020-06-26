@@ -13,10 +13,11 @@ import {
 import "./About.css";
 import Northeastern from "./pictures/northeastern.png";
 import Poweradv from "./pictures/poweradv.png";
+import Cisco from "./pictures/cisco.jpg";
 import Nshs from "./pictures/nshs.png";
 import Github from "./pictures/github.png";
 import Linkedin from "./pictures/linkedin.png";
-import Email from "./pictures/mail.png";
+import Email from "./pictures/mail2.png";
 import Resume from "./pictures/resume.png";
 
 export default class About extends React.Component {
@@ -26,8 +27,8 @@ export default class About extends React.Component {
         <div className="header">
           <h1> About </h1>
           <div className="blurb">
-            I am an aspiring Software Engineer and currently a junior at
-            Northeastern University (graduating May 2021).
+            I am a software engineer and currently a senior at Northeastern
+            University, graduating in May 2021.
           </div>
           <div className="socials">
             <a
@@ -85,7 +86,44 @@ export default class About extends React.Component {
           className="list"
         >
           <Divider />
-
+          <ListItem alignItems="flex-start">
+            <ListItemAvatar>
+              <Avatar sizes="100" alt="Cisco Logo" src={Cisco} />
+            </ListItemAvatar>
+            <ListItemText
+              className="cellText"
+              primary={
+                <React.Fragment>
+                  <Typography variant="subtitle1" color="textPrimary">
+                    Software Engineer Co-op
+                  </Typography>
+                  <Typography variant="body2" color="textPrimary">
+                    Cisco, Cambridge, MA
+                  </Typography>
+                  <Typography variant="body2" color="textPrimary">
+                    May 2020 – December 2020
+                  </Typography>
+                </React.Fragment>
+              }
+              secondary={
+                <React.Fragment>
+                  <Typography variant="body2" color="inherit">
+                    • Wrote code in a full-stack SaaS web application, with a
+                    Java Spring back end and an Angular front end.
+                  </Typography>
+                  <Typography variant="body2" color="inherit">
+                    • Worked on a scrum team with weekly sprints,
+                    retrospectives, planning, and demos.
+                  </Typography>
+                  <Typography variant="body2" color="inherit">
+                    • Maintained and developed new unit, integration, and
+                    end-to-end tests.
+                  </Typography>
+                </React.Fragment>
+              }
+            />
+          </ListItem>
+          <Divider />
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
               <Avatar sizes="100" alt="PowerAdvocate Logo" src={Poweradv} />
@@ -161,11 +199,10 @@ export default class About extends React.Component {
                     Teaching Assistant
                   </Typography>
                   <Typography variant="body2" color="textPrimary">
-                    Northeastern University Khoury College of Computer Sciences,
-                    Boston, MA
+                    Khoury College of Computer Sciences, Boston, MA
                   </Typography>
                   <Typography variant="body2" color="textPrimary">
-                    January 2019 – April 2019, January 2020 - April 2020
+                    January 2019 – April 2019, January 2020 – April 2020
                   </Typography>
                 </React.Fragment>
               }
@@ -189,6 +226,8 @@ export default class About extends React.Component {
         </List>
 
         <br />
+        <Divider />
+
         <List
           subheader={<ListSubheader>Education</ListSubheader>}
           className="list"
@@ -207,7 +246,8 @@ export default class About extends React.Component {
                     Northeastern University, Boston, MA
                   </Typography>
                   <Typography variant="body2" color="textPrimary">
-                    BS in Computer Engineering and Computer Science
+                    Bachelor of Science, majoring in Computer Engineering and
+                    Computer Science
                   </Typography>
                   <Typography variant="body2" color="textPrimary">
                     GPA: 3.93 / 4.00
@@ -217,7 +257,7 @@ export default class About extends React.Component {
                   </Typography>
                 </React.Fragment>
               }
-              secondary="Relevant Coursework: Object-Oriented Design, Algorithms and Data, Computer Systems, Embedded Design"
+              secondary="Relevant Coursework: Object-Oriented Design, Algorithms and Data, Database Design, Capstone Design"
             />
           </ListItem>
           <Divider />
@@ -242,41 +282,5 @@ export default class About extends React.Component {
         </List>
       </div>
     );
-
-    // return (
-    //   <div className="aboutPage">
-    //     <h1> About </h1>
-    //
-    //     <div className="blurb">
-    //       I am an aspiring Software Engineer and currently a junior at
-    //       Northeastern University (graduating May 2021).
-    //     </div>
-    //
-    //     <h3> Links </h3>
-    //
-    //     <div className="links">LinkedIn GitHub Resume.pdf Email</div>
-    //
-    //     <h3> Experience </h3>
-    //
-    //     <div className="experience">
-    //       Software Developer Co-op (PowerAdvocate, Boston, MA) Jul - Dec 2019
-    //       <br />
-    //       Teaching Assistant (Northeastern University, Boston, MA) Jan - Apr
-    //       2019
-    //     </div>
-    //
-    //     <h3> Education </h3>
-    //
-    //     <div className="education">
-    //       Northeastern University BS in Computer Engineering and Computer
-    //       Science
-    //       <br />
-    //       Classes: Object-Oriented Design, Algorithms and Data, Embedded Design
-    //       <br />
-    //       <br />
-    //       Newton South High School
-    //     </div>
-    //   </div>
-    // );
   }
 }
