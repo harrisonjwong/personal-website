@@ -57,7 +57,7 @@ export default class About extends React.Component {
                 style={{ width: "50px" }}
               />
             </a>
-            <a className="socialImage" href="mailto:wong.ha@husky.neu.edu">
+            <a className="socialImage" href="mailto:harrisonjwong@gmail.com">
               <img
                 src={Email}
                 title="Email Me"
@@ -67,7 +67,7 @@ export default class About extends React.Component {
             </a>
             <a
               className="socialImage"
-              href="https://github.com/harrisonjwong/resume/blob/master/resume_dec2019.pdf"
+              href="https://github.com/harrisonjwong/resume/blob/master/Harrison_Wong_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -257,7 +257,7 @@ export default class About extends React.Component {
                   </Typography>
                 </React.Fragment>
               }
-              secondary="Relevant Coursework: Object-Oriented Design, Algorithms and Data, Database Design, Capstone Design"
+              secondary="Relevant Coursework: Software Development, Web Development, Database Design, Capstone Project"
             />
           </ListItem>
           <Divider />
