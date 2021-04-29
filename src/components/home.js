@@ -17,19 +17,19 @@ const Home = () => {
       <h3>Links</h3>
       <ul>
         <li>
-          You can see some of my work and projects
+          See some of my work and projects
           on <a target='_blank' rel='noopener noreferrer' href={GITHUB}>GitHub</a>.
         </li>
         <li>
-          You can connect with me
+          Connect with me
           on <a target='_blank' rel='noopener noreferrer' href={LINKEDIN}>LinkedIn</a>.
         </li>
         <li>
-          You can learn more about my professional experience
+          Learn more about my professional experience
           on my <a target='_blank' rel='noopener noreferrer' href={RESUME}>resume</a>.
         </li>
         <li>
-          You can contact me at harrisonjwong at gmail dot com.
+          Contact me at harrisonjwong at gmail dot com.
         </li>
       </ul>
     </div>
