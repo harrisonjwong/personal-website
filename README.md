@@ -1,47 +1,23 @@
-**You can visit my website at https://harrisonjwong.com.**
+# personal-website
 
-This is my personal portfolio website built in [React](https://reactjs.org) and hosted by GitHub Pages.
+This is the third iteration of my personal website. This time I've opted for extremely plain.
 
-It supports multiple pages with ReactRouter's HashRouter (which allows for links to use a # so it can still be contained on a single page, a requirement for github pages).
+See it here: https://harrisonjwong.com. 
 
-TODO:
+### Instructions to run locally
 
-- [x] Setup github page
-- [x] Create new homepage
-- [x] Sidebar
-- [x] About page
-  - [x] Links (email, linkedin, github, resume.pdf)
-  - [x] Education (Northeastern, NSHS)
-  - [x] Experience (PA, TAing)
-- [x] Skills page
-  - [x] Languages
-  - [x] Frameworks
-  - [x] Software
-- [x] Projects page (new page for each)
-  - [ ] Greenline
-  - [ ] animator
-  - [ ] maze game
-  - [ ] tictactoe
-  - [ ] this website
-  - [ ] more...
-- [x] Interests page
-  - [x] podcasts
-  - [ ] youtubers (hmm)
-  - [ ] tv
-  - [x] cooking (lol)
-  - [x] technology (apple)
-  - [x] exercise LOL
+1. Clone the repo
+2. `npm install`
+3. `npm start`
 
-Other tasks:
+### Instructions to deploy (running locally is a prerequisite)
 
-- [ ] Get the app bar to display the correct page name upon loading
-- [ ] make the projects page look slightly better (the pictures make the overlays hard to read)
-- [ ] Use images instead of text on skills page
-- [x] Write blurbs for about page (copy from resume); figure out how to do multiline secondary
+1. `npm run deploy`
 
-Icons from here: https://www.materialui.co/icons.
+### Technologies
 
-Credits:
+* React
+* Bootstrap
+* GitHub Pages
 
-I used this [tutorial](https://github.com/gitname/react-gh-pages) to set up hosting on GitHub Pages.
-I also used this [tutorial](https://blog.pshrmn.com/simple-react-router-v4-tutorial/) to setup multipage.
+I used [this tutorial](https://github.com/gitname/react-gh-pages) to set up github pages.
