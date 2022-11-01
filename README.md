@@ -1,18 +1,16 @@
 # personal-website
 
-This is the third iteration of my personal website. This time I've opted for extremely plain.
-
-See it here: https://harrisonjwong.com. 
+Personal website with basic personal details - https://harrisonjwong.com. 
 
 ### Instructions to run locally
 
 1. Clone the repo
-2. `npm install`
-3. `npm start`
+2. `yarn`
+3. `yarn start`
 
 ### Instructions to deploy (running locally is a prerequisite)
 
-1. `npm run deploy`
+1. `yarn deploy`
 
 ### Technologies
 
