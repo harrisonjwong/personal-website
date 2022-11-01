@@ -8,9 +8,10 @@ Personal website with basic personal details - https://harrisonjwong.com.
 2. `yarn`
 3. `yarn start`
 
-### Instructions to deploy (running locally is a prerequisite)
+### Instructions to deploy (running locally to check first)
 
 1. `yarn deploy`
+2. Go into github settings and set the custom domain to be correct.
 
 ### Technologies
 
